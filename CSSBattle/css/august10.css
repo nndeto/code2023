@@ -1,0 +1,27 @@
+
+body {
+background: #4F77FF;
+}
+.one {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+background: #FFFFFF;
+box-shadow: 10px 10px #003AFF;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+}
+.two {
+position: absolute;
+right: 2px;
+top: 129px;
+width: 149px;
+height: 290px;
+transform: rotate(135deg);
+background: #003AFF;
+z-index: 1;
+border-radius: 0% 0% 10% 10%;
+}
