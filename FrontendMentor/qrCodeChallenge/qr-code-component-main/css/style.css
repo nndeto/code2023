@@ -12,6 +12,7 @@ body {
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0px 2px 10px hsl(220, 5%, 55%);
+    margin-top: 10%;
 }
 
 .innerCard {
@@ -50,3 +51,14 @@ body {
     margin: 40px;
 
 }
+
+@media screen and (max-width: 780px) {
+    .card {
+        transform: scale(.7);
+    }
+
+    .footer {
+        transform: scale(.7);
+    }
+} 
+    
