@@ -1,13 +1,43 @@
-.container {}
+body {
+    background: #f1f1f1;
+}
 
-.card {}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 
-.sample-image {}
+}
 
-.text {}
+.card {
+    max-width: 200px;
+    max-height: 400px;
+    border: 3px solid #d3d3d3;
+    box-shadow: 4px 2px 15px #d3d3d3;
+    border-radius: 20px;
+    margin: 20px;
+}
 
-#title {}
+.sample-image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0px 0px;
+}
 
-#subhead {}
+.text {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 5px;
+}
 
-#content {}
+#title {
+    text-transform: uppercase;
+}
+
+#subhead {
+    font-size: 12px;
+}
+
+#content {
+    font-size: 10px;
+}
