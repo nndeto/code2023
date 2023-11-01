@@ -1,3 +1,5 @@
+/* CSS for flex cards */
+
 body {
     background: #f1f1f1;
 }
@@ -8,6 +10,7 @@ body {
     justify-content: space-evenly;
 
 }
+
 
 .card {
     max-width: 200px;
@@ -40,4 +43,44 @@ body {
 
 #content {
     font-size: 10px;
+}
+
+/* CSS for side by side */
+.horizon-container {
+    max-width: 500px;
+    display: flex;
+    border: 1.5px solid #868585;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #868585;
+}
+
+.horizon-img {
+    width: 250px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.horizon-text {
+    width: 250px;
+    padding-left: 100px;
+    align-self: center;
+    font-family: sans-serif;
+    
+}
+
+@media screen and (max-width: 500px) {
+    .horizon-container {
+        max-width: 200px;
+    }
+
+    .horizon-img {
+        width: 100px!important;
+    }
+
+    .horizon-text {
+        width: 100px;
+        padding-left: 20px;
+        font-size: 12px;
+    }
+
 }
